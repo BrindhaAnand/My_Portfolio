@@ -1,0 +1,227 @@
+/*****COMMON CSS SECTION*****/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-outline: 0;
+}
+html{
+	scroll-behavior: smooth;
+
+}
+a{
+	text-decoration: none;
+
+}
+
+html, body 
+	{
+	font-size: 14px;
+	font-weight: 500;
+	background:whitesmoke
+	color: #323133;
+}
+.container {
+	width: 1000px;
+	margin: 0px auto;
+	display: table;
+}
+.width-33 {
+	width: 33%;
+	float: left;
+}
+.width-66 {
+	width: 66%;
+	float: right;
+}
+/*****MENU SECTION*****/
+.main-panel {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 100vh;
+}
+
+.logo {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.span-col {
+	color:rgb(236, 69, 69);
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 20px;
+	color: black
+}
+/*****Main BANNER*****/
+.width-50 {
+	float:left;
+	left: 110px;
+	position: relative;
+	width: 50%;
+}
+.banner-section {
+	width: 100%;
+	float: left;
+	margin-top: 25vh;
+}
+.banner-section h1 {
+	font-size: 48px;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+.banner-section h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.banner-section a {
+	float: left;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid grey;
+	color: #5430f3;
+	margin-left: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+}
+/*****Main BANNER IMAGE*****/
+.main-panel img {
+	margin-top: 10%;
+	width: 100%;
+	margin-left: 10%;
+    padding: 0px 50px;
+}
+ /****PROJECT****/
+ /* Style the project details section */
+.project-details {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-col {
+	color: #ca0f0f;
+}
+/* Style headings */
+h2, h3 {
+    color: #333;
+}
+
+/* Style lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style screenshots */
+.project-screenshots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-screenshots img {
+    max-width: 50%;
+    margin: 7px;
+}
+
+/*****SKILL SECTION*****/
+.skill {
+	margin-top: 40px;
+	font-size: 17px;
+}
+
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	background: #f7f0f4;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: #000;;
+	height: 5px;
+	float: left;
+}
+
+
+
+/*PORTFOLIO SECTION*/
+.gallery {
+	width: 100%;
+	float: center;
+	margin-top: 20px;
+}
+.gallery img {
+	height: auto;
+	width: 95%;
+	margin-bottom: 30px;
+}
+/*RESUME*/
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set text color */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the contact, education, and experience sections */
+.contact, .education, .Project, .skills, .interest {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
